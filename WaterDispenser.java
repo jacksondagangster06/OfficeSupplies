@@ -23,6 +23,10 @@ public class WaterDispenser
         {
             leak = true;
         }
+        else
+        {
+            leak = false;
+        }
 
         if (canister >= 500 && leak == false)
         {
@@ -44,6 +48,10 @@ public class WaterDispenser
         if(rand == 0)
         {
             leak = true;
+        }
+        else
+        {
+            leak = false;
         }
         if (canister >= 200)
         {
