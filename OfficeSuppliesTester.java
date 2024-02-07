@@ -32,7 +32,7 @@ HolePunch p = new HolePunch();
    System.out.println("This will display the Map/State class! Level: Complex.")
    System.out.println("We are going to randomly spin the map!")
    Map m = new Map();
-   spin();
+   m.spin();
    System.out.println(m.getState());
    System.out.println(m.getCapital());
 }
