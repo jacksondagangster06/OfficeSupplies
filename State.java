@@ -8,7 +8,7 @@ public State(String name, String capital, int pop)
 {
     this.name = name;
     this.capital = capital;
-    this.population = population;
+    this.pop = pop;
 }
     public String getName()
     {
