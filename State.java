@@ -2,13 +2,13 @@ public class State
 {
     private String name;
     private String capital;
-    private int pop;
+   
 
-public State(String name, String capital, int pop)
+public State(String name, String capital)
 {
     this.name = name;
     this.capital = capital;
-    this.pop = pop;
+    
 }
     public String getName()
     {
@@ -18,8 +18,11 @@ public State(String name, String capital, int pop)
     {
         return capital;
     }
+}
+    /*
     public int getPop()
     {
         return pop;
     }
-}
+
+*/

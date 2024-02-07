@@ -69,6 +69,6 @@ public class WaterDispenser
 
     public void refill()
     {
-        canister = 1000;
+        canister = 10000;
     }
 }

@@ -14,7 +14,7 @@ public class HolePunch{
     {
         if(holes < 15)
         {
-            holes += 3
+            holes += 3;
         }
         else
         {
